@@ -2,5 +2,6 @@
     "emmet.triggerExpansionOnTab": true,
     "emmet.includeLanguages": {
         "\"html\"": "\"html\""
-    }
+    },
+    "terminal.integrated.shellIntegration.enabled": false
 }
