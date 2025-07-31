@@ -1,0 +1,201 @@
+{% extends "base.html" %} {% block title %} Automation Works - Home {% endblock title %} {% block body %}
+<div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  {% comment %}
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="static/images/img1.jpg" class="d-block w-100" style="height: 600px" alt="..." />
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Welcome to the World of Artificial Intelligence</h5>
+        <p>Explore cutting-edge AI solutions, automation tools, and smart systems designed to shape the future.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="static/images/img2.jpg" class="d-block w-100" style="height: 600px" alt="..." />
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Scripting</h5>
+        <p>Automate workflows and optimize tasks using powerful scripting languages like Python, Bash, and more.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="static/images/img3.jpg" class="d-block w-100" style="height: 600px" alt="..." />
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Tool Integration</h5>
+        <p>Seamlessly connect tools and platforms to boost efficiency and enable smooth data-driven operations.</p>
+      </div>
+    </div>
+  </div>
+  {% endcomment %}
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="static/images/img1.jpg" class="d-block w-100" style="height: 600px; filter: brightness(60%); object-fit: cover" alt="..." />
+      <div class="carousel-caption d-none d-md-block">
+        <h5 style="color: #fff; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8)">Welcome to the World of Artificial Intelligence</h5>
+        <p style="color: #fff; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8)">Explore cutting-edge AI solutions, automation tools, and smart systems designed to shape the future.</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="static/images/img2.jpg" class="d-block w-100" style="height: 600px; filter: brightness(60%); object-fit: cover" alt="..." />
+      <div class="carousel-caption d-none d-md-block">
+        <h5 style="color: #fff; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8)">Scripting</h5>
+        <p style="color: #fff; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8)">Automate workflows and optimize tasks using powerful scripting languages like Python, Bash, and more.</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="static/images/img3.jpg" class="d-block w-100" style="height: 600px; filter: brightness(60%); object-fit: cover" alt="..." />
+      <div class="carousel-caption d-none d-md-block">
+        <h5 style="color: #fff; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8)">Tool Integration</h5>
+        <p style="color: #fff; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8)">Seamlessly connect tools and platforms to boost efficiency and enable smooth data-driven operations.</p>
+      </div>
+    </div>
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<div class="container my-3">
+  <h1 class="my-4 text-center">Our Services</h1>
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+    <!-- 1. AI-Powered Automation -->
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="https://picsum.photos/seed/ai-automation/900/500" class="d-block w-100" alt="AI Automation" />
+        <div class="card-body">
+          <p class="card-text">Harness artificial intelligence to automate complex workflows, predict outcomes, and accelerate business processes with minimal manual effort.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group"><button class="btn btn-sm btn-outline-secondary">View</button><button class="btn btn-sm btn-outline-secondary">Edit</button></div>
+            <small class="text-body-secondary">AI & ML</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2. Script Development -->
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="https://picsum.photos/seed/script-dev/900/500" class="d-block w-100" alt="Scripting Services" />
+        <div class="card-body">
+          <p class="card-text">Build efficient scripts using Python, Bash, and PowerShell to automate system tasks, data parsing, testing, and cloud operations.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group"><button class="btn btn-sm btn-outline-secondary">View</button><button class="btn btn-sm btn-outline-secondary">Edit</button></div>
+            <small class="text-body-secondary">Scripting</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3. Tool Integration -->
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="https://picsum.photos/seed/tool-integration/900/500" class="d-block w-100" alt="Tool Integration" />
+        <div class="card-body">
+          <p class="card-text">Integrate various platforms and APIs—like Jira, Jenkins, Git, and ServiceNow—to build seamless automated toolchains.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group"><button class="btn btn-sm btn-outline-secondary">View</button><button class="btn btn-sm btn-outline-secondary">Edit</button></div>
+            <small class="text-body-secondary">DevOps</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 4. Website & Software Development -->
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="https://picsum.photos/seed/web-dev/900/500" class="d-block w-100" alt="Web Development" />
+        <div class="card-body">
+          <p class="card-text">Custom web and software solutions for dashboards, reporting tools, and automation interfaces—tailored to your business goals.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group"><button class="btn btn-sm btn-outline-secondary">View</button><button class="btn btn-sm btn-outline-secondary">Edit</button></div>
+            <small class="text-body-secondary">Web Tech</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 5. Cloud Automation -->
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="https://picsum.photos/seed/cloud-automation/900/500" class="d-block w-100" alt="Cloud Automation" />
+        <div class="card-body">
+          <p class="card-text">Automate provisioning, monitoring, and scaling on AWS, Azure, or GCP using Infrastructure as Code (IaC) and CI/CD pipelines.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group"><button class="btn btn-sm btn-outline-secondary">View</button><button class="btn btn-sm btn-outline-secondary">Edit</button></div>
+            <small class="text-body-secondary">CloudOps</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 6. Network Configuration Audit -->
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="https://picsum.photos/seed/network-audit/900/500" class="d-block w-100" alt="Network Audit" />
+        <div class="card-body">
+          <p class="card-text">Audit and validate router and switch configurations automatically to ensure compliance with network policies and standards.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group"><button class="btn btn-sm btn-outline-secondary">View</button><button class="btn btn-sm btn-outline-secondary">Edit</button></div>
+            <small class="text-body-secondary">Networking</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 7. Data Parsing & Reporting -->
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="https://picsum.photos/seed/data-report/900/500" class="d-block w-100" alt="Data Reporting" />
+        <div class="card-body">
+          <p class="card-text">Extract structured insights from raw data and generate interactive reports in Excel, PDF, or dashboard formats.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group"><button class="btn btn-sm btn-outline-secondary">View</button><button class="btn btn-sm btn-outline-secondary">Edit</button></div>
+            <small class="text-body-secondary">Data</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 8. Testing Automation -->
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="https://picsum.photos/seed/testing-automation/900/500" class="d-block w-100" alt="Testing Automation" />
+        <div class="card-body">
+          <p class="card-text">Build and run automated test suites for APIs, apps, and systems using tools like Selenium, PyTest, Postman, or custom frameworks.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group"><button class="btn btn-sm btn-outline-secondary">View</button><button class="btn btn-sm btn-outline-secondary">Edit</button></div>
+            <small class="text-body-secondary">QA</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 9. DevSecOps Implementation -->
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="https://picsum.photos/seed/devsecops/900/500" class="d-block w-100" alt="DevSecOps" />
+        <div class="card-body">
+          <p class="card-text">Integrate security into every stage of your development lifecycle with automated scans, alerts, and secure deployment pipelines.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group"><button class="btn btn-sm btn-outline-secondary">View</button><button class="btn btn-sm btn-outline-secondary">Edit</button></div>
+            <small class="text-body-secondary">Security</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock body %}
